@@ -25,15 +25,15 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itsneerja/NidhiMusic
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NidhiStatus")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alpha_Bots_Updates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Alpha_Bots_Support")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "99999"))
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
 )
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/56d1760224589ee370186.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/fd4e9b8e1b015597d86ba.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
